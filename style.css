@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "Taylor Handwritting";
+    src: url(./fontes/taylor-handwritting.ttf) format(truetype);
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #d4d0c5;
+    --cor2:#b0c0cf;
+    --cor3:#84a4c0;
+    --cor4: #6484a6;
+    --cor5:#6487a7;
+    
+    --fonte-padrao: "Comic Relief", cursive;
+    --fonte-taylor:"Taylor Handwritting", cursive;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-color: var(--cor1);
+    text-align: center;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4), var(--cor3));
+    height: 89%;
+    width: 98%;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    font-family: var(--fonte-taylor);
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+header h2{
+    color: white;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor1);
+    padding: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    background-color: var(--cor3);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+}
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    background-color: var(--cor1);
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;   
+}
+
+main h1{
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+}
+
+#span-titulo{
+    font-family: var(--fonte-taylor);
+    color: var(--cor5);
+    font-size: xx-large;
+}
+
+span{
+    font-family: var(--fonte-taylor);
+    color: var(--cor5);
+    font-size: x-large;
+}
+
+main p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 25px;
+    margin: 13px 0px 13px 0px;
+}
+
+main strong{
+    color: var(--cor4);
+}
+
+main h2{
+    color: white;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor2), transparent);
+    text-indent: 10px;
+}
+
+.main-a{
+    background-color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.main-a:hover{
+    text-decoration: underline;
+}
+
+.main-a::after{
+    content: '\00A0\1F517';
+}
+
+main div{
+    width: 90%;
+    background-color: var(--cor3);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    padding-top: 27px;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+main figcaption{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+main li{
+    text-indent: 5px;
+    margin-left: 23px;
+}
+
+main ol{
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+main iframe{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+aside{
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+aside h3{
+    background-color: var(--cor5);
+    padding: 10px;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover{
+    text-decoration: underline;
+}
+
+aside ul{
+    columns: 2;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside li{
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: var(--cor1);
+    margin-top: 3px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+#the-eras-tour{
+    width: 55%;
+}

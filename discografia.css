@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "Taylor Handwritting";
+    src: url(./fontes/taylor-handwritting.ttf) format(truetype);
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #b9d2b5;
+    --cor2:#f4cb8d;
+    --cor3:#d1b2d2;
+    --cor4: #823549;
+    --cor5:#84a4c0;
+    --cor6:#969092;
+    --cor7:#faaecd;
+    --cor8:#bab5af;
+    --cor9:#ce957b;
+    --cor10:#42485f;
+    --cor11: #686364;
+    --cor12: #eeffed;
+    --cor13: #b9c6b8;
+    --cor14: #cddbcb;
+    
+    --fonte-padrao: "Comic Relief", cursive;
+    --fonte-taylor:"Taylor Handwritting", cursive;
+}
+
+main div{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    padding-top: 27px;
+    max-width: 90%;
+    max-height: 80%;
+    width: 50%;
+}
+
+main figcaption{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+body{
+    background-color: var(--cor13);
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+header{
+    background-color: var(--cor14);
+    text-align: center;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+    background-color: var(--cor12);
+    height: 89%;
+    width: 98%;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    font-family: var(--fonte-taylor);
+    color: black;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+header h2{
+    color: black;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor14);
+    padding: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    background-color: var(--cor12);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: var(--cor13);
+}
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;   
+}
+
+main p{
+    color: black;
+    font-size: large;
+    text-indent: 5px;
+    padding: 9px;
+}
+
+main h2{
+    text-indent: 10px;
+}
+
+#debut-h2{
+    background-color: var(--cor1);
+}
+
+span{
+    font-family: var(--fonte-taylor);
+}
+
+#debut{
+    background-color: var(--cor1);
+}
+
+.fearless-h2{
+    background-color: var(--cor2);
+}
+
+.fearless{
+    background-color: var(--cor2);
+}
+
+.speaknow-h2{
+    background-color: var(--cor3);
+}
+
+.speaknow{
+    background-color: var(--cor3);
+}
+
+.red-h2{
+    background-color: var(--cor4);
+}
+
+.red{
+    background-color: var(--cor4);
+}
+
+.nine-h2{
+    background-color: var(--cor5);
+}
+
+.nine{
+    background-color: var(--cor5);
+}
+
+#reputation-h2{
+    background-color: var(--cor6);
+}
+
+#reputation{
+    background-color: var(--cor6);
+}
+
+#lover-h2{
+    background-color: var(--cor7);
+}
+
+#lover{
+    background-color: var(--cor7);
+}
+
+#folklore-h2{
+    background-color: var(--cor8);
+}
+
+#folklore{
+    background-color: var(--cor8);
+}
+
+#evermore-h2{
+    background-color: var(--cor9);
+}
+
+#evermore{
+    background-color: var(--cor9);
+}
+
+#midnights-h2{
+    background-color: var(--cor10);
+}
+
+#midnights{
+    background-color: var(--cor10);
+}
+
+#ttpd{
+    background-color: var(--cor11);
+}
+
+#ttpd-h2{
+    background-color: var(--cor11);
+}
+
+footer{
+    background-color: var(--cor14);
+    margin-top: 3px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+#botao-voltar{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#botao-voltar:hover{
+    text-decoration: underline;
+}
+
+#texto-voltar{
+    background-color: var(--cor14);
+}
