@@ -244,3 +244,7 @@ footer{
 #texto-voltar{
     background-color: var(--cor14);
 }
+
+#pagina-atual{
+    background-color: var(--cor13);
+}

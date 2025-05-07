@@ -228,3 +228,7 @@ footer{
 #the-eras-tour{
     width: 55%;
 }
+
+#pagina-atual{
+    background-color: var(--cor5);
+}
